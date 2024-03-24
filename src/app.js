@@ -17,8 +17,11 @@ app.use(express.json());
 
 app.get('/', (req, res) => {
   res.json({
-    message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
+    message: 'azefazef',
   });
+  // res.json({
+  //   message: '🦄🌈✨👋🌎🌍🌏✨🌈🦄',
+  // });
 });
 
 app.use('/api/v1', api);
